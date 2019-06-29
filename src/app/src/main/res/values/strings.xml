@@ -18,4 +18,7 @@
     <string name="please_log_in">Please Log in!!!</string>
     <string name="message">Message:</string>
     <string name="send_message_button">send message button</string>
+    <string name="logout">logout</string>
+    <string name="need_an_account">Need an account?</string>
+    <string name="sign_up_here">Sign up here!</string>
 </resources>

@@ -17,7 +17,7 @@
             android:id="@+id/userImageNavHeader"
             android:layout_marginStart="16dp"
             app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/loginBtnNavHeader"/>
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/logoutBtn"/>
 
     <TextView
             android:layout_width="wrap_content"
@@ -36,14 +36,14 @@
             app:layout_constraintTop_toBottomOf="@+id/usernameNavHeader" app:layout_constraintStart_toEndOf="@+id/userImageNavHeader"
             android:layout_marginStart="8dp" tools:text="user@domain.com"/>
     <Button
-            android:text="@string/login"
+            android:text="@string/logout"
             android:layout_width="wrap_content"
             android:layout_height="32dp"
-            android:id="@+id/loginBtnNavHeader"
+            android:id="@+id/logoutBtn"
             android:background="@android:color/transparent" android:textColor="@android:color/white"
             android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginStart="24dp" app:layout_constraintStart_toStartOf="parent"
-            android:onClick="loginBtnClicked" android:textAlignment="textStart"/>
+            app:layout_constraintStart_toStartOf="parent"
+            android:onClick="onLogoutBtnClicked" android:textAlignment="center"/>
     <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp" app:srcCompat="@drawable/addchannelbutton"
@@ -51,6 +51,6 @@
             android:scaleType="fitXY" android:padding="5dp" android:layout_marginEnd="8dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="8dp"
             app:layout_constraintBottom_toBottomOf="parent" android:background="@android:color/transparent"
-            android:onClick="addChannelBtnClicked" android:contentDescription="@string/add_channel_button"/>
+            android:onClick="onAddChannelBtnClicked" android:contentDescription="@string/add_channel_button"/>
 
 </android.support.constraint.ConstraintLayout>

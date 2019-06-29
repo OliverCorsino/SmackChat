@@ -1,5 +1,6 @@
 package com.olivercorsino.smackchat
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v4.view.GravityCompat
 import android.support.v4.widget.DrawerLayout
@@ -34,15 +35,16 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun loginBtnClicked(view: View) {
+    fun onLogoutBtnClicked(view: View) {
+        val loginIntent = Intent(this, LoginActivity::class.java)
+        startActivity(loginIntent)
+    }
+
+    fun onAddChannelBtnClicked(view: View) {
 
     }
 
-    fun addChannelBtnClicked(view: View) {
-
-    }
-
-    fun sendMessageBtnClicked(view: View) {
+    fun onSendMessageBtnClicked(view: View) {
 
     }
 }
