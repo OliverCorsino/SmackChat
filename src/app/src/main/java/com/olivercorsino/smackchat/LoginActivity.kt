@@ -18,6 +18,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     fun onSignUpBtnClicked(view: View) {
-
+        val signUpActivity = Intent(this, SignUpActivity::class.java)
+        startActivity(signUpActivity)
     }
 }

@@ -21,4 +21,11 @@
     <string name="logout">logout</string>
     <string name="need_an_account">Need an account?</string>
     <string name="sign_up_here">Sign up here!</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="change_avatar_background_color">Change avatar background color</string>
+    <string name="avtar_image_used_a_a_profile_picture">Avtar image used a a profile picture</string>
+    <string name="tap_the_to_generate_a_new_avatar">Tap the to generate a new avatar</string>
+    <string name="password">Password</string>
+    <string name="sing_up">Sing Up</string>
 </resources>
